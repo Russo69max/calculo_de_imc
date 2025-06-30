@@ -1,6 +1,7 @@
 nome =  input("Qual o seu nome? ")
 peso = float(input("Qual é seu peso em quilos?"))
 altura = float(input("Qual a sua altura em metros?"))
+print("-------------------------------------------------")
 Faixa = print("Menor que 18.5  Abaixo do peso \n 18.5 a 24.9   Peso normal \n 25.0 a 29.9  Sobrepeso \n 30.0 a 34.9  Obesidade Grau I \n 35.0 a 39.9  Obesidade Grau II \n 40.0 ou mais   Obesidade Grau III (mórbida)")
 print("-------------------------------------------------")
 imc= (peso / (altura * altura))
