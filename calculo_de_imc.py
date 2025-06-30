@@ -6,7 +6,7 @@ print("-------------------------------------------------")
 imc= (peso / (altura * altura))
 IMC = (peso / (altura * altura))
 if IMC <= 18.5:
-    print(f"{nome} voce está abaixodo peso e seu IMC é {imc}")
+    print(f"{nome} voce está abaixo do peso e seu IMC é {imc}")
 elif IMC <= 24.9:
     print(f"{nome} voce está com peso normal e seu IMC é {imc}")
 elif IMC <= 29.9:
